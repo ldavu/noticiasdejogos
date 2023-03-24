@@ -1,0 +1,129 @@
+/* Estilo básico da página */
+body {
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo da seção de jogos em destaque */
+section:nth-of-type(1) {
+    background-image: url("https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/cs2/header_bg.svg");
+    padding: 50px 20px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section li {
+    margin-bottom: 20px;
+    flex-basis: calc(33.33% - 10px);
+}
+
+section a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    background-color: #e0d7c5;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+section a:hover {
+    box-shadow: 0 5px 10px rgb(224, 81, 15);
+}
+
+section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilo da seção de categorias de jogos */
+section:nth-of-type(2) {
+    background-color: #cf8019;
+    padding: 50px 20px;
+}
+
+section:nth-of-type(2) h2 {
+    margin-top: 0;
+}
+
+section:nth-of-type(2) ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+section:nth-of-type(2) li {
+    margin-right: 20px;
+}
+
+section:nth-of-type(2) a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    background-color: #d6c9dd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+section:nth-of-type(2) a:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
